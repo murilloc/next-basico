@@ -1,4 +1,4 @@
-export default function params(req, res){
+export default function Params(req, res){
     res.status(200).json({
         params: req.query
     })

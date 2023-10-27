@@ -1,5 +1,5 @@
 const usuarios = []
-export default function form(req, res) {
+export default function Form(req, res) {
 
     if (req.method === 'POST') {
         post(req, res)

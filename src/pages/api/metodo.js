@@ -1,4 +1,4 @@
-export default (req, res) => {
+const metodo =  (req, res) => {
     if(req.method === 'GET'){
         res.status(200).json([
             {name: 'John Doe'},
@@ -11,3 +11,5 @@ export default (req, res) => {
         res.status(405).json({message: 'We only support GET'})
     }
 }
+
+export default metodo;
